@@ -1,0 +1,1 @@
+console.log('Essa mensagem vem do arquivo .js.')
