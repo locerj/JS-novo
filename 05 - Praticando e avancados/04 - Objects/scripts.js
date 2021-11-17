@@ -5,3 +5,7 @@ const person = {
   weight: 88.6,
   isAdmin: true,
 };
+
+console.log(person);// imprimindo o objeto inteiro
+
+console.log(person.name)// imprimindo propriedade do objeto
