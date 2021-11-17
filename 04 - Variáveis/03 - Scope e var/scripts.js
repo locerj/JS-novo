@@ -1,3 +1,4 @@
+console.log('Abra o arquivo scripts.js.')
 console.log('usando var')
 console.log('> existe x antes do bloco ', x);
 {

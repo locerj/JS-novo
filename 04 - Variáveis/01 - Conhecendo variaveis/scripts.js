@@ -1,3 +1,4 @@
+console.log('Abra o arquivo scripts.js.')
 //var - declaração
 var clima = 'Quente'
 console.log(clima);

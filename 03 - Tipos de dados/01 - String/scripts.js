@@ -1,3 +1,4 @@
+console.log('Abra o arquivo scripts.js.')
 console.log("Mayk");
 console.log('Marcelo');
 console.log(`

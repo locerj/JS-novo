@@ -1,3 +1,4 @@
+console.log('Abra o arquivo scripts.js.')
 let clima;
 console.log(clima)
 

@@ -1,3 +1,4 @@
+console.log('Abra o arquivo scripts.js.')
 var yourName;// declaration
 yourName = 'Marcelo';// assignment
 
