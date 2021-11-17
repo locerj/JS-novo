@@ -7,8 +7,13 @@ h1 {
     padding: 1rem 0rem;
 }
 
-h2, h3 {
+h2 {
     padding: 0 0 1rem 1rem;
+    color: #555;
+}
+h3 {
+    padding: 0 0 1rem 1rem;
+    color: gray;
 }
 
 p {
