@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback function</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <h1>Callback function</h1>
+    <h2>É uma função passada por paramêtro para outra função</h2>
+    <h3>Declaração:</h3>
+    <p>function sayMyName(name) {</p>
+    <p>console.log('antes de executar a função callback')</p>
+    <p>name()</p>
+    <p>console.log('depois de executar a callback')</p>
+    <p>}</p>
+    <p>sayMyName(</p>
+    <p>() => {</p>
+    <p>console.log('estou em uma callback')</p>
+    <p>}</p>
+    <p>)</p>
+    
+</br>
+    <p>Aperte F12</p>
+    <script src="./scripts.js"></script>
+</body>
+</html>

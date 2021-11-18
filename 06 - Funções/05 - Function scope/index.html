@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function scope</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <h1>Function scope</h1>
+
+    <h3>Criamos uma variável global:</h3>
+    <p>let subject = 'create video'</p>
+
+    <h3>Criamos uma variável ao criar um parametro na função:</h3>
+    <p>- A variável (subject) criada só funciona no escopo da função.</p>
+    <p>- Se o parêmetro subject não fosse criado, a função usaria a 
+        <br> variável subject global, alterando assim o seu valor.</p>
+    <p>function createThink(subject) {</p>
+    <p>subject = 'study'</p>
+    <p>return subject</p>
+    <p>}</p>
+
+    <p>- Logo a variavel subject global é diferente da variável da função.</p>
+    <p>console.log(createThink(subject))</p>
+    <p>console.log(subject)</p>
+
+</br>
+    <p>Aperte F12</p>
+    <script src="./scripts.js"></script>
+</body>
+</html>

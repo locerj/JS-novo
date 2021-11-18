@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Hoisting</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <h1>Function Hoisting</h1>
+
+    <h3>Chamando a função antes da declaração:</h3>
+    <p>- A função sofre um hoisting, ou seja, sua declaração é lida antes da chamada.</p>
+    <p>- Fazendo com que mesmo sendo chamada andtes de declarada, a função funcione sem problemas.</p>
+    <p>sayMyName()</p>
+
+    <p>function sayMyName() {</p>
+    <p>console.log('Marcelo')</p>
+    <p>}</p>
+
+    <h3>Declarando uma função em uma variável:</h3>
+    <p>- No caso de função anônima, o hoisting não acontence, e a chamada 
+        <br>da função dá erro</p>
+    <p>sayMyName()</p>
+
+    <p>const sayMyName = function() {</p>
+    <p>console.log('Marcelo')</p>
+    <p>}</p>
+
+</br>
+    <p>Aperte F12</p>
+    <script src="./scripts.js"></script>
+</body>
+</html>

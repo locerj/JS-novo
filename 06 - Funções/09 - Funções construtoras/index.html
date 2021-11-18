@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções construtoras</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <h1>Funções construtoras</h1>
+    <h2>Function() constructor</h2>
+    <p>- expressõ new</p>
+    <p>- criar um novo objeto</p>
+    <p>- this keyword</p>
+    <p>- um modelo para criar outros objetos</p>
+    <p>- è uma boa prática começar a função contrutora com letra maiúscula</p>
+    <h3>Declaração:</h3>
+    <p>function Person(name) {</p>
+    <p>this.name = name</p>
+    <p>this.walk = () => {</p>
+    <p>console.log('andando')</p>
+    <p>}</p>
+    <p>}</p>
+    <p>const marcelo = new Person('Marcelo')</p>
+    <p>console.log(marcelo)</p>
+    <p>- Podemos criar várias instacias do mesmo objeto</p>
+    <p>const joao = new Person('João')</p>
+    <p>console.log(joao)</p>
+    console.log(marcelo.walk())
+
+    <h3>Construtores do JS</h3>
+    <h3>String:</h3>
+    <p>let nome = String('Marelo')</p>
+    <p>console.log(nome)</p>
+    <h3>Num:</h3>
+    <p>let number = Num(2)</p>
+    <p>console.log(number)</p>
+    <h3>Date:</h3>
+    <p>let date = Date('2021-11-18')</p>
+    <p>console.log(date)</p>
+    
+
+</br>
+    <p>Aperte F12</p>
+    <script src="./scripts.js"></script>
+</body>
+</html>
