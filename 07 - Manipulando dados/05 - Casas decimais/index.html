@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas decimais</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <h1>Casas decimais</h1>
+    <h2>Manipulando Strings e números</h2>
+
+    <h3>Transformar um número real com 2 casa decimais 
+        <br>e trocar o ponto por vírgula:</h3>
+    <p>let number = 2009.5588</p>
+    <p>- Em inglês, os números decimais são separados por . e não vírgula</p>
+    <p>- Queremos mostrar apenas 2 casas decimais</p>
+    <p>- Usamos o toFixed() e passamos quantas casas decimais queremos como argumento.</p>
+    <p>console.log(number.toFixed(2))</p>
+    <p>- Queremos trocar o ponto por vírgula.</p>
+    <p>- Usamos o replace() e passamos como argumento o queremos trocar (o ponto)<br> pelo que vamos trocar ( a vírgula)</p>
+    <p>console.log(number.toFixed(2).replace(".", ","))</p>
+
+</br>
+    <p>Aperte F12</p>
+    <script src="./scripts.js"></script>
+</body>
+</html>
