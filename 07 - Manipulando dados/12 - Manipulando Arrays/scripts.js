@@ -1,0 +1,18 @@
+console.log('Abra o arquivo scripts.js.')
+let techs = ["html", "css", "js"]
+
+console.log(techs.push('node.js'))
+console.log(techs)
+console.log(techs.unshift('sql'))
+console.log(techs)
+console.log(techs.pop())
+console.log(techs)
+console.log(techs.shift())
+console.log(techs)
+console.log(techs.slice(1, 3))
+techs.splice(1, 1)
+console.log(techs)
+techs.splice(1, 2)
+console.log(techs)
+let index = techs.indexOf("html")
+console.log(index)

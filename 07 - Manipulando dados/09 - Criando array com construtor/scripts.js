@@ -1,0 +1,5 @@
+console.log('Abra o arquivo scripts.js.')
+let myArray = new Array('a', 'b', 'c')
+console.log(myArray)
+let newArray = new Array(10)
+console.log(newArray)

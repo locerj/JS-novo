@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Arrays</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <h1>Manipulando Arrays</h1>
+    <h2>Manipulação de Arrays</h2>
+    <p>let techs = ["html", "css", "js"]</p>
+    <h3>adicionar um itém no fim:</h3>
+    <p>console.log(techs.push('node.js'))</p>
+    <p>console.log(techs)</p>
+    <h3>adicionar um itém no começo:</h3>
+    <p>console.log(techs.unshift('sql'))</p>
+    <p>console.log(techs)</p>
+    <h3>remover um itém do fim:</h3>
+    <p>console.log(techs.pop())</p>
+    <p>console.log(techs)</p>
+    <h3>remover um itém do começo:</h3>
+    <p>console.log(techs.shift())</p>
+    <p>console.log(techs)</p>
+    <h3>pegar somente alguns elementos do array:</h3>
+    <p>console.log(techs.slice(1, 3))</p>
+    <h3>remover 1 ou mais iténs em qualquer posição do array:</h3>
+    <p>techs.splice(1, 1)</p>
+    <p>console.log(techs)</p>
+    <p>techs.splice(1, 2)</p>
+    <p>console.log(techs)</p>
+    <h3>encontrar a posiçao de um elemento no array:</h3>
+    <p>let index = techs.indexOf("html")</p>
+    <p>console.log(index)</p>
+
+</br>
+    <p>Aperte F12</p>
+    <script src="./scripts.js"></script>
+</body>
+</html>
