@@ -1,0 +1,10 @@
+console.log('Abra o arquivo scripts.js.')
+let x
+console.log(x)
+console.log(x = 1)
+console.log(x += 2)
+console.log(x -= 1)
+console.log(x *= 2)
+console.log(x /= 2)
+console.log(x %= 3)
+console.log(x **= 2)
